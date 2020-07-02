@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Szobák</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li id="logo"><a href="index.html"><h1>Parti Szálloda</h1></a></li>
+				<li><a href="index.html">Kezdőlap</a></li>
+				<li><a class="active" href="rooms.html">Szobák</a></li>
+				<li><a href="about.html">Rólunk</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container-rooms">
+		<div class="basic-information">
+			<h2>Alap szolgáltatások:</h2>
+			<ul>
+				<li>WI-FI</li>
+				<li>Medence</li>
+				<li>TV</li>
+				<li>Konditerem</li>
+				<li>Svédasztalos reggeli</li>
+				<li>Erkély</li>
+				<li>Telefon</li>
+			</ul>
+			<ul>
+				<li>Minibár</li>
+				<li>Klímarendszer</li>
+				<li>Hajszárító</li>
+				<li>Szobaszéf</li>
+				<li>Fürdőköpeny</li>
+				<li>Napi szobatakarítás</li>
+			</ul>
+		</div>
+		<p>Classic</p>
+		<div class="blurb">
+			<img class="rooms" onclick="function('001')" src="imgs/001.jpg">
+			<img class="rooms" onclick="function('003')" src="imgs/003.jpg">
+			<img class="rooms" onclick="function('009')" src="imgs/009.jpg">
+		</div>
+		<div class="details">
+			<ul>
+				<li>35 m<sup>2</sup></li>
+				<li>Franciaágy, kinyitható pótágy</li>
+				<li>Max. 3 fő részére</li>
+				<li>10 000 Ft/Fő/Éjszaka</li>
+			</ul>
+		</div>
+		<p>Classic Plus</p>
+		<div class="blurb">
+			<img class="rooms" onclick="function('010')" src="imgs/010.jpg">
+			<img class="rooms" onclick="function('011')" src="imgs/011.jpg">
+			<img class="rooms" onclick="function('012')" src="imgs/012.jpg">
+		</div>
+		<div class="details">
+			<ul>
+				<li>40 m<sup>2</sup></li>
+				<li>Franciaágy</li>
+				<li>Max. 2 fő részére</li>
+				<li>20 000 Ft/Fő/Éjszaka</li>
+				<li>Kétszeri étkezés (Ebéd, Vacsora)</li>
+				<li>Tengerre néző kilátás</li>
+				<li>Szauna</li>
+				<li>Jacuzzi</li>
+				<li>Masszázs</li>
+			</ul>
+		</div>
+		<p>Junior</p>
+		<div class="blurb">
+			<img class="rooms" onclick="function('013')" src="imgs/013.jpg">
+			<img class="rooms" onclick="function('014')" src="imgs/014.jpg">
+			<img class="rooms" onclick="function('015')" src="imgs/015.jpg">
+		</div>
+		<div class="details">
+			<ul>
+				<li>50 m<sup>2</sup></li>
+				<li>Franciaágy, 2db pótágy, babaágy</li>
+				<li>Maximum kapacitás: 4 felnőtt, 1 gyerek</li>
+				<li>Gyermekmegőrző</li>
+			</ul>
+		</div>
+		<div id="slideshow">
+			<div id="classic"></div>
+			<div id="classic-plus"></div>
+			<div id="junior"></div>
+		</div>
+	</div>
+	<footer>
+		<small>&copy;2020, All Rights Reserved, Tar Veronika</small>
+	</footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
