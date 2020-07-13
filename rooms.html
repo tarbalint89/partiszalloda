@@ -43,9 +43,9 @@
 		</div>
 		<p>Classic</p>
 		<div class="blurb">
-			<img class="rooms" onclick="function('001')" src="imgs/001.jpg">
-			<img class="rooms" onclick="function('003')" src="imgs/003.jpg">
-			<img class="rooms" onclick="function('009')" src="imgs/009.jpg">
+			<img class="rooms" onclick="slideShow('001'); roomName('classic')" src="imgs/001.jpg">
+			<img class="rooms" onclick="slideShow('003'); roomName('classic')" src="imgs/003.jpg">
+			<img class="rooms" onclick="slideShow('009'); roomName('classic')" src="imgs/009.jpg">
 		</div>
 		<div class="details">
 			<ul>
@@ -57,9 +57,9 @@
 		</div>
 		<p>Classic Plus</p>
 		<div class="blurb">
-			<img class="rooms" onclick="function('010')" src="imgs/010.jpg">
-			<img class="rooms" onclick="function('011')" src="imgs/011.jpg">
-			<img class="rooms" onclick="function('012')" src="imgs/012.jpg">
+			<img class="rooms" onclick="slideShow('010'); roomName('classic-plus')" src="imgs/010.jpg">
+			<img class="rooms" onclick="slideShow('011'); roomName('classic-plus')" src="imgs/011.jpg">
+			<img class="rooms" onclick="slideShow('012'); roomName('classic-plus')" src="imgs/012.jpg">
 		</div>
 		<div class="details">
 			<ul>
@@ -76,9 +76,9 @@
 		</div>
 		<p>Junior</p>
 		<div class="blurb">
-			<img class="rooms" onclick="function('013')" src="imgs/013.jpg">
-			<img class="rooms" onclick="function('014')" src="imgs/014.jpg">
-			<img class="rooms" onclick="function('015')" src="imgs/015.jpg">
+			<img class="rooms" onclick="slideShow('013'); roomName('junior')" src="imgs/013.jpg">
+			<img class="rooms" onclick="slideShow('014'); roomName('junior')" src="imgs/014.jpg">
+			<img class="rooms" onclick="slideShow('015'); roomName('junior')" src="imgs/015.jpg">
 		</div>
 		<div class="details">
 			<ul>
@@ -89,9 +89,9 @@
 			</ul>
 		</div>
 		<div id="slideshow">
-			<div id="classic"></div>
-			<div id="classic-plus"></div>
-			<div id="junior"></div>
+			<div id="classic"><span onclick="hideSlideShow()">&times;</span><div class="big"></div><div class="small"></div></div>
+			<div id="classic-plus"><span onclick="hideSlideShow()">&times;</span><div class="big"></div><div class="small"></div></div>
+			<div id="junior"><span onclick="hideSlideShow()">&times;</span><div class="big"></div><div class="small"></div></div>
 		</div>
 	</div>
 	<footer>

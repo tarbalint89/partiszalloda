@@ -12,3 +12,23 @@ $(window).on("scroll", function() {
 		nav.css("height","20rem");
 	}
 });
+
+
+
+// ROOMS SLIDESHOW
+
+function hideSlideShow() {
+	$("#slideshow").css("display","none");
+}
+var room;
+function roomName(x) {
+	room = x;
+	alert(room);
+}
+function slideShow(img) {
+	var image = "url('mgs/"+img+".jpg') no-repeat center"
+	$("#slideshow").css("display","block");
+	var roomBig = "#"+room+".big";
+	$(room).css("display","block");
+	$(roomBig).css("background",image);
+}

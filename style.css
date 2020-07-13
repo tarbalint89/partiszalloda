@@ -18,7 +18,7 @@ header {
 	height: 20rem;
 	position: sticky;
 	top: 0;
-	z-index: 99;
+	z-index: 10;
 }
 nav {
 	transition: all .8s ease;
@@ -124,6 +124,54 @@ img.rooms {
 .basic-information h2 {
 	font-size: 2rem;
 }
+#slideshow {
+	display: none;
+	background-color: rgba(0,0,0,.5);
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	text-align: center;
+}
+#classic span, #classic-plus span, #junior span {
+	position: fixed;
+	right: 1rem;
+	top: .45rem;
+	font-size: 3rem;
+	z-index: 14;
+	cursor: pointer;
+}
+#classic, #classic-plus, #junior{
+	display: none;
+	height: 90vh;
+	width: 90vw;
+	position: fixed;
+	overflow: hidden;
+	background-color: rgba(255,255,255,.5);
+	z-index: 12;
+	top: 5vh;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+#classic .big {
+	top: 0;
+	width: 100%;
+	height: 80%;
+	position: fixed;
+	background: url("imgs/001.jpg") no-repeat center;
+	background-size: 80%;
+	z-index: 13;
+}
+#classic .small {
+	bottom: 0;
+	width: 300px;
+}
+
+
+
 
 /* === ABOUT PAGE === */
 .container-about {
